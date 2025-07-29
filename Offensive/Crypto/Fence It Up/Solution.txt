@@ -1,4 +1,0 @@
-Solution: 
-The Rail Fence Cipher is referenced in the challenge description, with 7 being the key and offset between 5 and 10. So let’s test all five key-offset pairs on CyberChef. On 7 as key 9 as offset we obtain the correct plaintext.
-
-Flag: UWS{th1s_sh0u1d_b3_ezzy_or_not}

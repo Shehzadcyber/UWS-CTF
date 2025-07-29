@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t YOUR-DOCKER-IMAGE:latest .
+docker build -t uws-ctf-hackathon-2025-ctfd:latest .

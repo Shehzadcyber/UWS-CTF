@@ -9,7 +9,7 @@ extra:
     initial: 100
     decay: 1
     minimum: 100
-    image: YOUR-DOCKER-IMAGE:latest
+    image: uws-ctf-hackathon-2025-ctfd:latest
     port: 8000
     command: ""
     volumes: ""

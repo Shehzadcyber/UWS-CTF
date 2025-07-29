@@ -9,7 +9,7 @@ extra:
     initial: 50
     decay: 1
     minimum: 50
-    image: pccquals_pwn_cout:latest
+    image: uws-ctf-hackathon-2025-ctfd:latest
     port: 8000
     command: ""
     volumes: ""

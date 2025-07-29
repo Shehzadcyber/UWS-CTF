@@ -1,2 +1,0 @@
-Solution: 
-UWS{baquettes_are_tasty_when_based_with_butter}
