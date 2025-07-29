@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker build -t uws-ctf-hackathon-2025-ctfd:latest .

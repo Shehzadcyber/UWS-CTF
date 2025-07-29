@@ -1,0 +1,27 @@
+name: "FlaskFusion"
+author: "Muhammad Shahzad UWS"
+category: Web
+description: "I think filtering words is enough to stop you. I don’t know about Flask magic and template sorcery.\n\n**__Author__**: Muhammad Shahzad UWS"
+value: 150
+type: container
+
+extra:
+  initial: 150
+  decay: 1
+  minimum: 150
+  image: YOUR-DOCKER-IMAGE:latest
+  port: 8000
+  command: ""
+  volumes: ""
+  ctype: tcp
+
+image: ./src
+flags:
+  - {
+      type: "regex",
+      content: "UWS{sst1s_w1th_ch3cks_[5-8a-eR-Z]{4}_[0-9a-zA-Z]{6}}",
+      data: "case_insensitive",
+    }
+
+state: visible
+version: "0.1"
